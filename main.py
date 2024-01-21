@@ -20,6 +20,7 @@ try:
 except:
     print(colored("Failed to open ClientSettings folder, creating it.", "red"))
     pathlib.Path(pathlib.Path(os.getenv('LOCALAPPDATA')) / 'Roblox/Versions/' / function.find_latest_modified_folder(pathlib.Path(os.getenv('LOCALAPPDATA')) / 'Roblox/Versions') / 'ClientSettings').mkdir(parents=True, exist_ok=False)
+    open(pathlib.Path(os.getenv('LOCALAPPDATA')) / 'Roblox/Versions/' / function.find_latest_modified_folder(pathlib.Path(os.getenv('LOCALAPPDATA')) / 'Roblox/Versions') / 'ClientSettings/ClientAppSettings.json', "w").close()
 
 if __name__ == "__main__":
     function.main(selected_fflags)

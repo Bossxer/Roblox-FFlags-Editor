@@ -43,7 +43,7 @@ to use FFlag editor you need.
 
 ### Installation
 
-1. Get a free API Key at [https://www.python.org/](https://www.python.org/)
+1. Download python at [https://www.python.org/](https://www.python.org/)
 
 2. Download the repo
 

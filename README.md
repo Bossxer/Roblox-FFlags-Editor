@@ -22,8 +22,7 @@
   * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
+* [Author](#author)
 
 ## About The Project
 

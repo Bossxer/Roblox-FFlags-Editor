@@ -10,7 +10,7 @@ import ctypes
 
 #setup
 just_fix_windows_console()
-function.CTitle("FFlag Editor - Alpha")
+function.CTitle("FFlag Editor - Stable")
 function.setup()
 selected_fflags = []
 
